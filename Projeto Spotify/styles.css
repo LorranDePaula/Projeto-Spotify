@@ -1,0 +1,420 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121212;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 300px;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: green;
+}
+
+h1 {
+    margin: 0;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #121212;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px; 
+}
+
+.card {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    margin: 0; 
+    cursor: default;
+}
+
+.card:hover {
+    background-color: #444;
+}
+
+.janela1 {
+    width: 600px; 
+    cursor: pointer;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.janela2, .janela3 {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.janela4, .janela5, .janela6, .janela7, .janela8 {
+    width: 860px;
+}
+
+.card img {
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: lightblue;
+    text-decoration: none;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.janela2 a, .janela3 a, .janela4 a, .janela5 a, .janela6 a, .janela7 a, .janela8 a {
+    color: white;
+    text-decoration: none;
+}
+
+.janela2 a:hover, .janela3 a:hover, .janela4 a:hover, .janela5 a:hover, .janela6 a:hover, .janela7 a:hover, .janela8 a:hover {
+    text-decoration: underline;
+}
+
+.fraseprincipal{
+    display: flex;
+    flex-direction: column;
+}
+
+.frase1{
+    display: flex;
+}
+
+.frase2 {
+    font-size: x-large;
+    color: #6569D4;
+    font-weight: bold;
+}
+
+.frase3 {
+    display: flex;
+}
+
+.logospotify {
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+}
+
+.logocartao, .logolapis {
+    height: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.logo-lapis{
+    fill: white;
+    color: #fff;
+}
+
+.logoedit, .logorecovery, .logodiamante, .imagemspotify, .logopessoa,
+.logocaderno, .imagemcartao, .logoticket, .logocadeado, .logoapps, 
+.logosino, .logoOlho, .logolixeira, .logosaida, .logointerrogacao {
+    display: flex;
+    height: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    margin-right: 300px;
+}
+
+.frase{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.frase a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-content{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.colunas{
+    display: flex;
+    align-self: flex-start;
+    width: auto;
+}
+
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.coluna2, .coluna3, .coluna4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.imagensfooter{
+    display: flex;
+}
+
+.logoinsta{
+    display: flex;
+    margin-left: 150px;
+}
+
+.logoX, .logoface{
+    display: flex;
+    margin-left: 20px;
+}
+
+.finalfooter{
+    display: flex;
+    margin-left: 400px;
+    gap: 15px;
+    font-size: smaller;
+    margin-bottom: 50px;
+}
+
+.finalfooter2{
+    margin-left: 250px;
+    font-size: smaller;
+    margin-bottom: 50px;
+    background-color: #000;
+}
+
+.finalfooter0{
+    font-size: smaller;
+    margin-left: 1520px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.janela4 .frase p,
+.janela5 .frase p,
+.janela6 .frase p,
+.janela7 .frase p,
+.janela8 .frase p {
+    margin-left: 10px;
+}
+
+.footerprincipal{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    margin-top: 60px;
+    padding-top: 50px;
+}
+
+.logo-link2 {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.logo2 {
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 300px;
+    
+}
+
+.segundoh1{
+    font-size:x-large;
+}
+
+.footer-content2{
+    display: flex;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.footer-content2 h1{
+    font-size: x-large;
+}
+
+.test{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-left: -5%;
+}
+
+@media (max-width: 1000px) {
+    .logo-link {
+        margin-left: 20px;
+    }
+
+    .menu {
+        flex-direction: row;
+        margin-right: 20px;
+        gap: 10px;
+    }
+
+    .principal {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .main-container {
+        align-items: center;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .janela1, .janela4, .janela5, .janela6, .janela7, .janela8 {
+        width: 90%;
+    }
+
+    .janela2, .janela3 {
+        width: 570px;
+        height: auto;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .logospotify, .logocartao, .logolapis, .logoedit, .logorecovery,
+    .logodiamante, .imagemspotify, .logopessoa, .logocaderno, .imagemcartao,
+    .logoticket, .logocadeado, .logoapps, .logosino, .logoOlho, .logolixeira,
+    .logosaida, .logointerrogacao {
+        height: 20px;
+    }
+
+    .footerprincipal {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .logo-link2 {
+        margin-left: 0;
+    }
+
+    .colunas {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .coluna1, .coluna2, .coluna3, .coluna4 {
+        margin-left: 0;
+    }
+
+    .finalfooter {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: 5%;
+        gap: 10px;
+    }
+
+    .finalfooter0 {
+        margin-left: 880px;
+    }
+
+    .finalfooter2 {
+        margin-left: 0;
+    }
+
+    .imagensfooter {
+        justify-content:flex-start;
+        gap: 10px;
+    }
+
+    .logoinsta, .logoX, .logoface {
+        margin-left: 0;
+    }
+
+    .test {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        margin-left: -12%; 
+    }
+}
+

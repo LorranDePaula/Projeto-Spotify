@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo-link">
+                <img src="img/images (1).png" alt="Logo Spotify" class="logo">
+                <h1>Spotify</h1>
+            </a>
+        </div>
+        <nav class="menu">
+            <a href="#premium">Premium</a>
+            <a href="#support">Support</a>
+            <a href="#download">Download</a>
+            <a href="#profile">Profile</a>
+        </nav>
+    </header>
+    <div class="principal">
+        <div class="main-container">
+            <div class="cards-container">
+                <div class="janela1 card" onclick="navigateTo('subscription.html')">
+                    <div class="fraseprincipal">
+                        <div class="frase1">
+                            <p>Your subscription</p>
+                            <img src="img/icons8-spotify-24.png" alt="logo Spotify" class="logospotify">
+                        </div>
+                        <div class="frase2">
+                            <p>Premium Family</p>
+                        </div>
+                        <div class="frase3">
+                            <p>Next bill is for 34,90 on 07/09/2024<br>Mastercard ending in XXXX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-container">
+                    <div class="janela2 card" onclick="navigateTo('edit-profile.html')">
+                        <img src="img/icons8-edit.svg" alt="logo lápis" class="logolapis">
+                        <a href="#EditProfile">Edit Profile</a>
+                    </div>
+                    <div class="janela3 card" onclick="navigateTo('update-card.html')">
+                        <img src="img/icons8-card-50.png" alt="logo cartão" class="logocartao">
+                        <a href="#UpdateCard">Update card</a>
+                    </div>
+                </div>
+            </div>
+            <div class="janela4 card">
+                <h2>Account</h2>
+                <div class="frase">
+                    <a href="#EditProfile">
+                        <img src="img/edit_pencil_icon_143022.png" alt="imagem edit" class="logoedit">
+                        <p>Edit Profile</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#RecoverPlaylists">
+                        <img src="img/icons8-17387-0-73139-atualizar-esquerda-32-setas-50.png"logo recovery" class="logorecovery">
+                        <p>Recover Playlists</p>
+                    </a>
+                </div>
+            </div>
+            <div class="janela5 card">
+                <h2>Subscription</h2>
+                <div class="frase">
+                    <a href="#AvailablePlans">
+                        <img src="img/icons8-diamond-50.png" alt="imagem diamante" class="logodiamante">
+                        <p>Available plans</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#ManageSubscription">
+                        <img src="img/icons8-spotify-50.png" alt="imagem spotify" class="imagemspotify">
+                        <p>Manage your subscription</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#ManageMembers">
+                        <img src="img/icons8-usuário-30.png"logo pessoa" class="logopessoa">
+                        <p>Manage Members</p>
+                    </a>
+                </div>
+            </div>
+            <div class="janela6 card">
+                <h2>Payment</h2>
+                <div class="frase">
+                    <a href="#OrderHistory">
+                        <img src="img/icons8-livro-50.png"logo caderno" class="logocaderno">
+                        <p>Order history</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#SavePaymentCards">
+                        <img src="img/icons8-cartão-de-crédito-50.png" alt="imagem cartão" class="imagemcartao">
+                        <p>Save payment cards</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#Redeem">
+                        <img src="img/icons8-bilhete-50.png" alt="logo ticket" class="logoticket">
+                        <p>Redeem</p>
+                    </a>
+                </div>
+            </div>
+            <div class="janela7 card">
+                <h2>Security and privacy</h2>
+                <div class="frase">
+                    <a href="#ChangePassword">
+                        <img src="img/icons8-cadeado-50.png" alt="logo cadeado" class="logocadeado">
+                        <p>Change password</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#ManageApps">
+                        <img src="img/icons8-apps-30.png" alt="imagem apps" class="logoapps">
+                        <p>Manage apps</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#NotificationSettings">
+                        <img src="img/icons8-bell-24.png" alt="logo sino" class="logosino">
+                        <p>Notification settings</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#PrivacySettings">
+                        <img src="img/icons8-visível-50.png" alt="logo olho" class="logoOlho">
+                        <p>Privacy Settings</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#CloseAccount">
+                        <img src="img/icons8-delete-30.png" alt="logo lixeira" class="logolixeira">
+                        <p>Close account</p>
+                    </a>
+                </div>
+                <div class="frase">
+                    <a href="#SignOut">
+                        <img src="img/icons8-direita-50.png" alt="logo saida" class="logosaida">
+                        <p>Sign out everywhere</p>
+                    </a>
+                </div>
+            </div>
+            <div class="janela8 card">
+                <h2>Help</h2>
+                <div class="frase">
+                    <a href="#Support">
+                        <img src="img/icons8-question-mark-50.png" alt="logo interrogação" class="logointerrogacao">
+                        <p>Spotify support</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerprincipal">
+            <div class="test">
+                <div class="footer-content2">
+                    <a href="#" class="logo-link2">
+                        <img src="img/images (1).png" alt="Logo Spotify" class="logo2">        
+                        <h1>Spotify</h1>
+                    </a>
+                </div>
+        <div class="colunas">
+            <div class="coluna1">
+                <h3>Company</h3>
+                    <a href="#">
+                    <p>About</p>
+                    <a href="#">
+                    <p>Jobs</p>
+                    <a href="#">
+                    <p>For the Record</p>
+                </a>
+            </div>
+            <div class="coluna2">
+                <h3>Communities</h3>
+                    <a href="#">
+                    <p>For the Artists</p>
+                    <a href="#">
+                    <p>Developers</p>
+                    <a href="#">
+                    <p>Advertising</p>
+                    <a href="#">
+                    <p>Investors</p>
+                    <a href="#">
+                    <p>Vendors</p>
+                </a>
+            </div>
+            <div class="coluna3">
+                <h3>Useful Links</h3>
+                    <a href="#">
+                    <p>Support</p>
+                    <a href="#">
+                    <p>Web Player</p>
+                    <a href="#">
+                    <p>Free Mobile App</p>
+                    </a>
+            </div>
+            <div class="coluna4">
+                <h3>Spotify Plans</h3>
+                    <a href="#">
+                    <p>Premium Individual</p>
+                    <a href="#">
+                    <p>Premium Duo</p>
+                    <a href="#">
+                    <p>Premium Family</p>
+                    <a href="#">
+                    <p>Premium Student</p>
+                    <a href="#">
+                    <p>Spotify Free</p>
+            </div>
+            <div class="imagensfooter">
+            <img src="img/icons8-instagram.svg" alt="logo instagram" class="logoinsta">
+            <img src="img/icons8-twitter.svg" alt="logo X" class="logoX">
+            <img src="img/icons8-facebook.svg" alt="logo facebook" class="logoface">
+        </div>
+        </div>
+    </div>
+        <div class="finalfooter0">
+            <a href="#">
+            <p>USA</p>     
+            </a>
+        </div>
+        <div class="finalfooter">
+            <a href="#">
+            <p>Legal</p>
+
+            <a href="#">
+            <p>Safety & Privacy Center</p>
+
+            <a href="#">
+            <p>Privacy Police</p>
+
+            <a href="#">
+            <p>Cookies</p>
+
+            <a href="#">
+            <p>About Ads</p>
+
+            <a href="#">
+            <p>Acessibility</p>
+
+            <a href="#">
+            <p>Notice at Collection</p>
+
+            <a href="#">
+            <p>Your Privacy Choices</p>
+            </a>
+
+            <div class="finalfooter2"></div>
+
+            <a href="#">
+            <p>Spotify 2024 AB</p>
+            </a>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
